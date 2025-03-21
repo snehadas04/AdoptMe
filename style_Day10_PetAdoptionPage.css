@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    font-style: italic;
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+span{
+    color: darkgoldenrod;
+}
+p{
+    font-size: 50px;
+    background-color:  darkred;
+    color: #fff;
+}
+section{
+    height: 30em;
+    width: 97%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+section div{
+    width: 85%;
+    height: 85%;
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius: 20px;
+}
